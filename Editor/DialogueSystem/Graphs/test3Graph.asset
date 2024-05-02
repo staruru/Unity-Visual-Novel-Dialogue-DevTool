@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0709f5de1b6956741a7eb501f6813ea6, type: 3}
+  m_Name: test3Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: test3
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 2cb7a7fe-668d-4f5d-ae1d-84a21aabe393
+    <Name>k__BackingField: testGroup
+    <Position>k__BackingField: {x: 483, y: 163.00002}
+  - <ID>k__BackingField: 68470479-7584-4815-80bf-994ee1e16390
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 17.00001, y: 608}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: e2a23aa7-9f99-4635-8fe1-71fe52aff915
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Dialouge text
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 10fe3c35-dd50-479e-8763-7dbb607670a9
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 180, y: 228}
+  - <ID>k__BackingField: a755fd5e-c3f5-4d1b-a1a9-e5670a661aee
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: Dialouge text
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1008, y: 361}
+  - <ID>k__BackingField: 10fe3c35-dd50-479e-8763-7dbb607670a9
+    <Name>k__BackingField: testMultiChoice
+    <Text>k__BackingField: Dialouge text
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: a755fd5e-c3f5-4d1b-a1a9-e5670a661aee
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: a755fd5e-c3f5-4d1b-a1a9-e5670a661aee
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 2cb7a7fe-668d-4f5d-ae1d-84a21aabe393
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 508, y: 222}
+  - <ID>k__BackingField: 202ec4d9-af0f-4b2e-bb72-b4c46d2e8473
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Dialouge text
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Next Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 2cb7a7fe-668d-4f5d-ae1d-84a21aabe393
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 508, y: 562}
+  - <ID>k__BackingField: 9c193df8-480c-4403-aa30-d57b4eada5b8
+    <Name>k__BackingField: fjldsjflksd
+    <Text>k__BackingField: fdmsf;jsdmflksjf;ls
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 202ec4d9-af0f-4b2e-bb72-b4c46d2e8473
+    <GroupID>k__BackingField: 68470479-7584-4815-80bf-994ee1e16390
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 42, y: 886}
+  - <ID>k__BackingField: 336dd15f-c872-4001-a194-7f8f5a1fbeab
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: nbkfhdskjfdjflk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 10fe3c35-dd50-479e-8763-7dbb607670a9
+    <GroupID>k__BackingField: 68470479-7584-4815-80bf-994ee1e16390
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 42, y: 667}
+  <OldGroupNames>k__BackingField:
+  - testGroup
+  - DialogueGroup
+  <OldUngroupedNodeNames>k__BackingField:
+  - 1
+  - 3
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: testGroup
+      Value:
+      - testMultiChoice
+      - DialogueName
+    - Key: DialogueGroup
+      Value:
+      - fjldsjflksd
+      - 2

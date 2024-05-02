@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0709f5de1b6956741a7eb501f6813ea6, type: 3}
+  m_Name: Project1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Project1
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 41517b99-373d-4575-84c2-cf53181546ee
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 220, y: 151}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 706187a2-4c8a-4789-a971-beb4c5987bf9
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Dialouge text
+    <SpeakerName>k__BackingField: Speaker name
+    <SpriteName>k__BackingField: CharacterName
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 7a931a73-1b20-49c1-b7fd-d71d2e9623e1
+    <GroupID>k__BackingField: 41517b99-373d-4575-84c2-cf53181546ee
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 245, y: 210}
+  - <ID>k__BackingField: 7a931a73-1b20-49c1-b7fd-d71d2e9623e1
+    <Name>k__BackingField: test2
+    <Text>k__BackingField: Dialouge text
+    <SpeakerName>k__BackingField: Speaker name
+    <SpriteName>k__BackingField: CharacterName
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 4aaf7d76-0e29-4205-81ed-67df98032d88
+    <GroupID>k__BackingField: 41517b99-373d-4575-84c2-cf53181546ee
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 527, y: 210}
+  - <ID>k__BackingField: 4aaf7d76-0e29-4205-81ed-67df98032d88
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Dialouge text
+    <SpeakerName>k__BackingField: Speaker name
+    <SpriteName>k__BackingField: CharacterName
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: choice1
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: choice2
+      <NodeID>k__BackingField: 3cddad7b-22c2-4071-b889-763055ddeb07
+    - <Text>k__BackingField: choice2
+      <NodeID>k__BackingField: 3cddad7b-22c2-4071-b889-763055ddeb07
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 813, y: 130}
+  - <ID>k__BackingField: 3cddad7b-22c2-4071-b889-763055ddeb07
+    <Name>k__BackingField: hrkjfhd
+    <Text>k__BackingField: Dialouge text
+    <SpeakerName>k__BackingField: Speaker name
+    <SpriteName>k__BackingField: CharacterName
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1180, y: 561}
+  <OldGroupNames>k__BackingField:
+  - DialogueGroup
+  <OldUngroupedNodeNames>k__BackingField:
+  - DialogueName
+  - hrkjfhd
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: DialogueGroup
+      Value:
+      - DialogueName
+      - test2
